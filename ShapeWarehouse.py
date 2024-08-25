@@ -38,3 +38,8 @@ class ShapeWarehouse:
             sum_perimeter += shape.get_perimeter()
         return sum_perimeter
 
+    def count_colors(self):
+        count_colors = {color: 0 for color in self.colors}
+        for shape in self.shapes:
+            count_colors[shape.get_color()] += 1
+        return count_colors
