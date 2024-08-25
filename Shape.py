@@ -1,5 +1,5 @@
 class Shape:
-    def __init__(self, color: str, area: float, perimeter: float):
+    def __init__(self, color: str = 'White', area: float = 1, perimeter: float = 1):
         self.color = color
         self.area = area
         self.perimeter = perimeter

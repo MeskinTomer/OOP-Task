@@ -6,4 +6,8 @@ class Rectangle(Shape):
         area = side_1 * side_2
         perimeter = (side_1 + side_2) * 2
         super().__init__(color, area, perimeter)
-        
+
+    def __add__(self, other):
+        area = self.get_area() + other.get_area()
+        perimeter = self.get_perimeter() + other.get_perimeter()
+        return Shape(area=area, perimeter=perimeter)
