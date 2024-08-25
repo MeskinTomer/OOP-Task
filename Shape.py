@@ -15,3 +15,6 @@ class Shape:
 
     def get_perimeter(self) -> float:
         return self.perimeter
+
+    def __str__(self):
+        return f'Color: {self.color}, Area: {self.area}, Perimeter: {self.perimeter}'

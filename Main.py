@@ -2,15 +2,18 @@ from Shape import Shape
 from Rectangle import Rectangle
 from Square import Square
 from Circle import Circle
-
+from ShapeWarehouse import ShapeWarehouse
 
 def main():
     rec = Rectangle('Green', 5, 3)
-    print(rec.get_color(), rec.get_area(), rec.get_perimeter())
+    print(rec)
     squ = Square('Green', 5)
-    print(squ.get_color(), squ.get_area(), squ.get_perimeter())
+    print(squ)
     cir = Circle('Green', 3)
-    print(cir.get_color(), cir.get_area(), cir.get_perimeter())
+    print(cir)
+
+    shapes = ShapeWarehouse(['Green', 'Blue', 'Red', 'Yellow'], [1, 2, 3, 4, 5])
+    shapes.generate(3)
 
 
 if __name__ == '__main__':
