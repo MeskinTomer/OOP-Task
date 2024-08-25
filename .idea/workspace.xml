@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab2b2c7-80ac-4add-a907-39d795681710" name="Changes" comment="Shape Class">
-      <change afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rectangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dab2b2c7-80ac-4add-a907-39d795681710" name="Changes" comment="Rectangle Class">
+      <change afterPath="$PROJECT_DIR$/Square.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,11 +92,20 @@
       <option name="project" value="LOCAL" />
       <updated>1724600713695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rectangle Class">
+      <option name="closed" value="true" />
+      <created>1724601457162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724601457162</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Shape Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shape Class" />
+    <MESSAGE value="Rectangle Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rectangle Class" />
   </component>
 </project>
