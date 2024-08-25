@@ -25,3 +25,16 @@ class ShapeWarehouse:
         for i in range(x):
             temp = self.create_shape()
             self.shapes.append(temp)
+
+    def sum_areas(self):
+        sum_area = float(0)
+        for shape in self.shapes:
+            sum_area += shape.get_area()
+        return sum_area
+
+    def sum_perimeters(self):
+        sum_perimeter = float(0)
+        for shape in self.shapes:
+            sum_perimeter += shape.get_perimeter()
+        return sum_perimeter
+
