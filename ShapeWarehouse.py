@@ -18,7 +18,7 @@ class ShapeWarehouse:
         elif shape == 'Square':
             temp = Square(random.choice(self.colors), random.choice(self.lengths))
         else:
-            temp = Square(random.choice(self.colors), random.choice(self.lengths))
+            temp = Circle(random.choice(self.colors), random.choice(self.lengths))
         return temp
 
     def generate(self, x: int):
