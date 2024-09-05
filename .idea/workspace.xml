@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab2b2c7-80ac-4add-a907-39d795681710" name="Changes" comment="Sum Methods">
+    <list default="true" id="dab2b2c7-80ac-4add-a907-39d795681710" name="Changes" comment="Base Task Done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rectangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shape.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shape.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShapeWarehouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShapeWarehouse.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,23 +25,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2l9k5yaHZpVxwvxSPmPzTvQ6zDS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ObjectOrientedProgrammingTask" />
@@ -148,7 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724611802256</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Count Colors">
+      <option name="closed" value="true" />
+      <created>1724612120584</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724612120584</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Base Task Done">
+      <option name="closed" value="true" />
+      <created>1724612310778</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724612310778</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,6 +179,8 @@
     <MESSAGE value="Section 1 Done" />
     <MESSAGE value="Generate Method" />
     <MESSAGE value="Sum Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sum Methods" />
+    <MESSAGE value="Count Colors" />
+    <MESSAGE value="Base Task Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base Task Done" />
   </component>
 </project>
