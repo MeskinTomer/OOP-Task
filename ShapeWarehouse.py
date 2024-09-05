@@ -8,6 +8,10 @@ from Shape import Shape
 class ShapeWarehouse:
     # Initializer
     def __init__(self, colors: list, lengths: list):
+        # Assert that lengths contain only positive numbers
+        assert all(isinstance(length, (int, float)) and length > 0 for length in
+                   lengths), "All lengths must be positive numbers"
+
         # The colors list
         self.colors = colors
         # The lengths list

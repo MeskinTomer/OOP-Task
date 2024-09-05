@@ -1,6 +1,11 @@
 class Shape:
     # Initializer
     def __init__(self, color: str = 'White', area: float = 1, perimeter: float = 1):
+        # Asserts
+        assert isinstance(color, str), "Color must be a string"
+        assert isinstance(area, (int, float)) and area > 0, "Area must be a positive number"
+        assert isinstance(perimeter, (int, float)) and perimeter > 0, "Perimeter must be a positive number"
+
         # The color of the shape
         self.color = color
         # The area of the shape
@@ -16,6 +21,7 @@ class Shape:
         :type: str
         :return: None
         """
+        assert isinstance(color, str), "Color must be a string"
         self.color = color
 
     def get_color(self) -> str:

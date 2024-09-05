@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab2b2c7-80ac-4add-a907-39d795681710" name="Changes" comment="Base Task Done">
+    <list default="true" id="dab2b2c7-80ac-4add-a907-39d795681710" name="Changes" comment="Documentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Circle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rectangle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shape.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shape.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShapeWarehouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/ShapeWarehouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/Square.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724612310778</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Documentation">
+      <option name="closed" value="true" />
+      <created>1725558003779</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725558003779</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,6 +191,7 @@
     <MESSAGE value="Sum Methods" />
     <MESSAGE value="Count Colors" />
     <MESSAGE value="Base Task Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base Task Done" />
+    <MESSAGE value="Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Documentation" />
   </component>
 </project>
